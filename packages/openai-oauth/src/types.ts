@@ -122,6 +122,7 @@ export type OpenAIOAuthServerOptions = LocalOpenAIOAuthOptions & {
 	host?: string
 	port?: number
 	models?: string[]
+	claude?: boolean
 	codexVersion?: string
 	requestLogger?: (event: OpenAIOAuthServerLogEvent) => void
 }
